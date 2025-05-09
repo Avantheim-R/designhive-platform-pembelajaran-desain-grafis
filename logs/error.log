@@ -1,0 +1,24 @@
+[09-May-2025 12:54:54 Asia/Jakarta] PHP Warning:  Constant DB_HOST already defined in /project/sandbox/user-workspace/config/database.php on line 3
+[09-May-2025 12:54:54 Asia/Jakarta] PHP Warning:  Constant DB_NAME already defined in /project/sandbox/user-workspace/config/database.php on line 4
+[09-May-2025 12:54:54 Asia/Jakarta] PHP Warning:  Constant DB_USER already defined in /project/sandbox/user-workspace/config/database.php on line 5
+[09-May-2025 12:54:54 Asia/Jakarta] PHP Warning:  Constant DB_PASS already defined in /project/sandbox/user-workspace/config/database.php on line 6
+[09-May-2025 12:54:54 Asia/Jakarta] Connection failed: could not find driver
+[09-May-2025 12:56:15 Asia/Jakarta] could not find driver
+[09-May-2025 12:58:09 Asia/Jakarta] could not find driver
+[09-May-2025 12:59:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /project/sandbox/user-workspace/config/database.php:18
+Stack trace:
+#0 /project/sandbox/user-workspace/index.php(10): require_once()
+#1 {main}
+  thrown in /project/sandbox/user-workspace/config/database.php on line 18
+[09-May-2025 13:01:54 Asia/Jakarta] Database Error: could not find driver
+[09-May-2025 13:01:54 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 8
+[09-May-2025 13:01:54 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 9
+[09-May-2025 13:01:54 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 10
+[09-May-2025 13:03:24 Asia/Jakarta] Database Error: could not find driver
+[09-May-2025 13:03:24 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 8
+[09-May-2025 13:03:24 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 9
+[09-May-2025 13:03:24 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 10
+[09-May-2025 13:05:44 Asia/Jakarta] Database Error: could not find driver
+[09-May-2025 13:05:44 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 8
+[09-May-2025 13:05:44 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 9
+[09-May-2025 13:05:44 Asia/Jakarta] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /project/sandbox/user-workspace/includes/session.php on line 10
